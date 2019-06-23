@@ -1,6 +1,6 @@
 {
   "name": "millikart",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Node.js library for millikart payment processing system",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/TheMisir/node-millikart#readme",
   "dependencies": {
-    "fast-xml-parser": "^3.12.16"
+    "fast-xml-parser": "^3.12.16",
+    "got": "^9.6.0"
   }
 }

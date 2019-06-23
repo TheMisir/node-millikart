@@ -7,6 +7,7 @@
  *************************************************/
 
 const crypto = require('crypto');
+const got = require('got');
 const fxp = require('fast-xml-parser');
 
 const MILLIKART = {
@@ -98,8 +99,8 @@ class MKRequestBuilder {
             + '?'
             + urlencode(this.options);
 
-        var response = await fetch({ url });
-        var xml = fxp.parse(await response.text());
+        var response = await got(url);
+        var xml = fxp.parse(response.body);
         return xml && xml.response;
     }
 
