@@ -1,0 +1,27 @@
+{
+  "name": "millikart",
+  "version": "1.0.1",
+  "description": "Node.js library for millikart payment processing system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheMisir/node-millikart.git"
+  },
+  "keywords": [
+    "millikart",
+    "payment",
+    "processing",
+    "api",
+    "credit",
+    "card"
+  ],
+  "author": "Misir Jafarov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheMisir/node-millikart/issues"
+  },
+  "homepage": "https://github.com/TheMisir/node-millikart#readme"
+}
