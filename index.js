@@ -188,5 +188,5 @@ class MilliKart {
     }
 }
 
-exports = (mid, secret) => new MilliKart(mid, secret);
-exports.MilliKart = MilliKart;
+module.exports = function (mid, secret) { return new MilliKart(mid, secret); }
+module.exports.MilliKart = MilliKart;
