@@ -1,3 +1,5 @@
+> The project was archived and no longer being maintained!
+
 # MilliKart
 
 This script may be used to accept MilliKart payments on your NodeJS backend simply
